@@ -1,11 +1,37 @@
-.container{
-    /* max-width: 450px; */
+/* .container{
+    
     height: 100vh;
-    width: 100vw;
+    
     display: flex; 
-    flex-direction: column;
+    background-color:white;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    flex-wrap: wrap;
+    flex-direction: row;
+
 }
+ .cell{
+    height:50px;
+    width:50px;
+    margin: 0;
+    border:1px solid black;
+    padding:0;
+} 
+ .column{
+    height:100vh;
+    
+ } */
+.container{
+    display: flex;
+    height: 100vh;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.column{
+    display: flex;
+    flex: 1;
+    border: 1px solid red;
+}
+
