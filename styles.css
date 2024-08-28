@@ -35,21 +35,15 @@ body{
     gap:50px;
 }
 .container{
-    height: 450px;
-    width: 450px;
+    max-height: 450px;
+    max-width: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
     justify-content: center;
     align-items: center;
 }
 
 
-.cell{
-    flex-shrink: 1;
-    flex-grow: 1;
-    max-height: fit-content;
-    max-width: fit-content;
-}
+
 
